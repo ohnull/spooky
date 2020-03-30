@@ -63,8 +63,9 @@ span a {
 	height: 100%;
 	margin-top: 5%;
 
-	-webkit-filter: blur(1px) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
-	filter: blur(1px) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+	-webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 
